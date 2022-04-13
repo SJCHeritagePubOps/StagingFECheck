@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-StagingFECheck_(0)">
+              <span class="suite-name border-passed">StagingFECheck (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-StagingFECheck_(0)">
+                    <span>StagingFECheck.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-StagingFECheck_(0)">
+                    <span class="test-stats">14 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-StagingFECheck_(0)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-StagingFECheck_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-StagingFECheck_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-StagingFECheck_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-StagingFECheck_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-StagingFECheck_(0)" class="hide-methods passed suite-StagingFECheck_(0)"> (hide)</a> <!-- hide-methods passed suite-StagingFECheck_(0) -->
+                      <a href="#" panel-name="suite-StagingFECheck_(0)" class="show-methods passed suite-StagingFECheck_(0)"> (show)</a> <!-- show-methods passed suite-StagingFECheck_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-StagingFECheck_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCB" hash-for-method="testStagingFECheckCB">testStagingFECheckCB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCB" hash-for-method="testStagingFECheckCB">testStagingFECheckCB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCHE" hash-for-method="testStagingFECheckCHE">testStagingFECheckCHE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCHE" hash-for-method="testStagingFECheckCHE">testStagingFECheckCHE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCHF" hash-for-method="testStagingFECheckCHF">testStagingFECheckCHF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckCHF" hash-for-method="testStagingFECheckCHF">testStagingFECheckCHF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckMAC" hash-for-method="testStagingFECheckMAC">testStagingFECheckMAC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckMAC" hash-for-method="testStagingFECheckMAC">testStagingFECheckMAC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckFashion" hash-for-method="testStagingFECheckTL">testStagingFECheckTL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckTL" hash-for-method="testStagingFECheckTL">testStagingFECheckTL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckFashion" hash-for-method="testStagingFECheckTL">testStagingFECheckTL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckTL" hash-for-method="testStagingFECheckTL">testStagingFECheckTL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckTP" hash-for-method="testStagingFECheckTP">testStagingFECheckTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-StagingFECheck_(0)" title="com.StagingFECheck.testCases.StagingFECheckTP" hash-for-method="testStagingFECheckTP">testStagingFECheckTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-StagingFECheck_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-StagingFECheck" class="panel StagingFECheck">
+        </div> <!-- panel StagingFECheck -->
+        <div panel-name="suite-StagingFECheck_(0)" class="panel StagingFECheck_(0)">
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckCHE</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCHE">
+                  </a> <!-- testStagingFECheckCHE -->
+                  <span class="method-name">testStagingFECheckCHE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCHE">
+                  </a> <!-- testStagingFECheckCHE -->
+                  <span class="method-name">testStagingFECheckCHE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckTP</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTP">
+                  </a> <!-- testStagingFECheckTP -->
+                  <span class="method-name">testStagingFECheckTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTP">
+                  </a> <!-- testStagingFECheckTP -->
+                  <span class="method-name">testStagingFECheckTP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckTL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTL">
+                  </a> <!-- testStagingFECheckTL -->
+                  <span class="method-name">testStagingFECheckTL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTL">
+                  </a> <!-- testStagingFECheckTL -->
+                  <span class="method-name">testStagingFECheckTL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckFashion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTL">
+                  </a> <!-- testStagingFECheckTL -->
+                  <span class="method-name">testStagingFECheckTL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckTL">
+                  </a> <!-- testStagingFECheckTL -->
+                  <span class="method-name">testStagingFECheckTL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckCHF</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCHF">
+                  </a> <!-- testStagingFECheckCHF -->
+                  <span class="method-name">testStagingFECheckCHF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCHF">
+                  </a> <!-- testStagingFECheckCHF -->
+                  <span class="method-name">testStagingFECheckCHF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckMAC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckMAC">
+                  </a> <!-- testStagingFECheckMAC -->
+                  <span class="method-name">testStagingFECheckMAC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckMAC">
+                  </a> <!-- testStagingFECheckMAC -->
+                  <span class="method-name">testStagingFECheckMAC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+          <div class="suite-StagingFECheck_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.StagingFECheck.testCases.StagingFECheckCB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCB">
+                  </a> <!-- testStagingFECheckCB -->
+                  <span class="method-name">testStagingFECheckCB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStagingFECheckCB">
+                  </a> <!-- testStagingFECheckCB -->
+                  <span class="method-name">testStagingFECheckCB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-StagingFECheck_(0)-class-passed -->
+        </div> <!-- panel StagingFECheck_(0) -->
+        <div panel-name="test-xml-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/byang/eclipse-workspace/StagingFECheck/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;StagingFECheck&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;StagingFECheck.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- StagingFECheck --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/byang/eclipse-workspace/StagingFECheck/StagingFECheck.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;StagingFECheck (0)&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCBonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCB&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCBonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCHEonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCHE&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCHEonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCHFonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCHF&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCHFonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckFashiononChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckFashion&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckFashiononChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckMAConChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckMAC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckMAConChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckTLonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckTL&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckTLonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckTPonChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckTP&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckTPonChrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCBonFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCB&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCBonFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCHEonFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCHE&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCHEonFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckCHFonFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckCHF&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckCHFonFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckFashiononFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckFashion&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckFashiononFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckMAConFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckMAC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckMAConFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckTLonFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckTL&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckTLonFirefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;StagingFECheckTPonFirefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.StagingFECheck.testCases.StagingFECheckTP&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StagingFECheckTPonFirefox --&gt;
+&lt;/suite&gt; &lt;!-- StagingFECheck (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for StagingFECheck</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for StagingFECheck (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">StagingFECheckCBonChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckCHEonChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckCHFonChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckFashiononChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckMAConChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckTLonChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckTPonChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckCBonFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckCHEonFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckCHFonFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckFashiononFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckMAConFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckTLonFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StagingFECheckTPonFirefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for StagingFECheck</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for StagingFECheck (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for StagingFECheck</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_StagingFECheck');
+function tableData_StagingFECheck() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['StagingFECheck']= { tableData: data, tableDiv: 'times-div-StagingFECheck'}
+return data;
+}
+              </script>
+              <div id="times-div-StagingFECheck">
+              </div> <!-- times-div-StagingFECheck -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for StagingFECheck (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_StagingFECheck_(0)');
+function tableData_StagingFECheck_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testStagingFECheckTL')
+data.setCell(0, 2, 'com.StagingFECheck.testCases.StagingFECheckTL')
+data.setCell(0, 3, 9156);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testStagingFECheckTL')
+data.setCell(1, 2, 'com.StagingFECheck.testCases.StagingFECheckTL')
+data.setCell(1, 3, 9032);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testStagingFECheckCHF')
+data.setCell(2, 2, 'com.StagingFECheck.testCases.StagingFECheckCHF')
+data.setCell(2, 3, 7908);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testStagingFECheckCHE')
+data.setCell(3, 2, 'com.StagingFECheck.testCases.StagingFECheckCHE')
+data.setCell(3, 3, 7897);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testStagingFECheckTL')
+data.setCell(4, 2, 'com.StagingFECheck.testCases.StagingFECheckFashion')
+data.setCell(4, 3, 7303);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testStagingFECheckTL')
+data.setCell(5, 2, 'com.StagingFECheck.testCases.StagingFECheckFashion')
+data.setCell(5, 3, 6063);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testStagingFECheckCHF')
+data.setCell(6, 2, 'com.StagingFECheck.testCases.StagingFECheckCHF')
+data.setCell(6, 3, 3080);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testStagingFECheckTP')
+data.setCell(7, 2, 'com.StagingFECheck.testCases.StagingFECheckTP')
+data.setCell(7, 3, 3002);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testStagingFECheckMAC')
+data.setCell(8, 2, 'com.StagingFECheck.testCases.StagingFECheckMAC')
+data.setCell(8, 3, 2824);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testStagingFECheckMAC')
+data.setCell(9, 2, 'com.StagingFECheck.testCases.StagingFECheckMAC')
+data.setCell(9, 3, 2771);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testStagingFECheckCB')
+data.setCell(10, 2, 'com.StagingFECheck.testCases.StagingFECheckCB')
+data.setCell(10, 3, 2654);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testStagingFECheckCHE')
+data.setCell(11, 2, 'com.StagingFECheck.testCases.StagingFECheckCHE')
+data.setCell(11, 3, 2651);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testStagingFECheckTP')
+data.setCell(12, 2, 'com.StagingFECheck.testCases.StagingFECheckTP')
+data.setCell(12, 3, 2386);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testStagingFECheckCB')
+data.setCell(13, 2, 'com.StagingFECheck.testCases.StagingFECheckCB')
+data.setCell(13, 3, 1970);
+window.suiteTableData['StagingFECheck_(0)']= { tableData: data, tableDiv: 'times-div-StagingFECheck_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-StagingFECheck_(0)">
+              </div> <!-- times-div-StagingFECheck_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for StagingFECheck</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for StagingFECheck (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-StagingFECheck" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-StagingFECheck_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCB</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCB</span>
+                <span class="method-start">8595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10568 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCHE</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">10759 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCHE</span>
+                <span class="method-start">12048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19946 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCHF</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">20076 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCHF</span>
+                <span class="method-start">21411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29321 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckFashion</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">29503 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTL</span>
+                <span class="method-start">30864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36927 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckMAC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37333 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckMAC</span>
+                <span class="method-start">38697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41523 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckTL</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">41701 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTL</span>
+                <span class="method-start">43018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52051 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckTP</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">52195 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTP</span>
+                <span class="method-start">53464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55851 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCB</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">55970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCB</span>
+                <span class="method-start">58811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCHE</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">62378 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCHE</span>
+                <span class="method-start">65005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67657 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckCHF</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">68642 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckCHF</span>
+                <span class="method-start">71368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74449 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckFashion</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">75608 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTL</span>
+                <span class="method-start">78249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85552 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckMAC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">86415 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckMAC</span>
+                <span class="method-start">88840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91612 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckTL</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">92748 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTL</span>
+                <span class="method-start">95160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104317 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.StagingFECheck.testCases.StagingFECheckTP</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">105189 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStagingFECheckTP</span>
+                <span class="method-start">107607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110610 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

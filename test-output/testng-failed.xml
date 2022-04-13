@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [StagingFECheck (0)]">
+  <test thread-count="5" name="StagingFECheckCBonFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.StagingFECheck.testCases.StagingFECheckCB">
+        <methods>
+          <include name="testStagingFECheckCB"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCB -->
+    </classes>
+  </test> <!-- StagingFECheckCBonFirefox(failed) -->
+  <test thread-count="5" name="StagingFECheckCHEonFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHE">
+        <methods>
+          <include name="setUp"/>
+          <include name="testStagingFECheckCHE"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHE -->
+    </classes>
+  </test> <!-- StagingFECheckCHEonFirefox(failed) -->
+  <test thread-count="5" name="StagingFECheckCHFonFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHF">
+        <methods>
+          <include name="setUp"/>
+          <include name="testStagingFECheckCHF"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHF -->
+    </classes>
+  </test> <!-- StagingFECheckCHFonFirefox(failed) -->
+</suite> <!-- Failed suite [StagingFECheck (0)] -->

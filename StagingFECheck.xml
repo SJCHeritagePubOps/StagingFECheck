@@ -1,0 +1,102 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="StagingFECheck">
+	<test name="StagingFECheckCBonChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCB" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckCHEonChrome">
+		<parameter name="browser" value="chrome"/>	
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCHE" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckCHFonChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCHF" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckFashiononChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckFashion" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckMAConChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckMAC" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckTLonChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckTL" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckTPonChrome">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckTP" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckCBonFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCB" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckCHEonFirefox">
+		<parameter name="browser" value="firefox"/>	
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCHE" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckCHFonFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckCHF" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckFashiononFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckFashion" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckMAConFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckMAC" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckTLonFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckTL" />
+		</classes>
+	</test>
+	
+		<test name="StagingFECheckTPonFirefox">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.StagingFECheck.testCases.StagingFECheckTP" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StagingFECheck" duration-ms="0" started-at="2022-04-13T03:14:59Z" finished-at="2022-04-13T03:14:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- StagingFECheck -->
+  <suite name="StagingFECheck (0)" duration-ms="111500" started-at="2022-04-13T03:13:07Z" finished-at="2022-04-13T03:14:59Z">
+    <groups>
+    </groups>
+    <test name="StagingFECheckCBonChrome" duration-ms="10752" started-at="2022-04-13T03:13:07Z" finished-at="2022-04-13T03:13:18Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCB">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@91161c7]" name="setUp" is-config="true" duration-ms="8589" started-at="2022-04-13T03:13:07Z" finished-at="2022-04-13T03:13:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCB()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@91161c7]" name="testStagingFECheckCB" duration-ms="1970" started-at="2022-04-13T03:13:16Z" finished-at="2022-04-13T03:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@91161c7]" name="tearDown" is-config="true" duration-ms="175" started-at="2022-04-13T03:13:18Z" finished-at="2022-04-13T03:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCB -->
+    </test> <!-- StagingFECheckCBonChrome -->
+    <test name="StagingFECheckCHEonChrome" duration-ms="9314" started-at="2022-04-13T03:13:18Z" finished-at="2022-04-13T03:13:27Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHE">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@42dafa95]" name="setUp" is-config="true" duration-ms="1289" started-at="2022-04-13T03:13:18Z" finished-at="2022-04-13T03:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCHE()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@42dafa95]" name="testStagingFECheckCHE" duration-ms="7897" started-at="2022-04-13T03:13:19Z" finished-at="2022-04-13T03:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCHE -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@42dafa95]" name="tearDown" is-config="true" duration-ms="125" started-at="2022-04-13T03:13:27Z" finished-at="2022-04-13T03:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHE -->
+    </test> <!-- StagingFECheckCHEonChrome -->
+    <test name="StagingFECheckCHFonChrome" duration-ms="9424" started-at="2022-04-13T03:13:27Z" finished-at="2022-04-13T03:13:37Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHF">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@7085bdee]" name="setUp" is-config="true" duration-ms="1335" started-at="2022-04-13T03:13:27Z" finished-at="2022-04-13T03:13:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCHF()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@7085bdee]" name="testStagingFECheckCHF" duration-ms="7908" started-at="2022-04-13T03:13:29Z" finished-at="2022-04-13T03:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCHF -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@7085bdee]" name="tearDown" is-config="true" duration-ms="178" started-at="2022-04-13T03:13:37Z" finished-at="2022-04-13T03:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHF -->
+    </test> <!-- StagingFECheckCHFonChrome -->
+    <test name="StagingFECheckFashiononChrome" duration-ms="7534" started-at="2022-04-13T03:13:37Z" finished-at="2022-04-13T03:13:44Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckFashion">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@3f49dace]" name="setUp" is-config="true" duration-ms="1361" started-at="2022-04-13T03:13:37Z" finished-at="2022-04-13T03:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTL()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@3f49dace]" name="testStagingFECheckTL" duration-ms="6063" started-at="2022-04-13T03:13:38Z" finished-at="2022-04-13T03:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@3f49dace]" name="tearDown" is-config="true" duration-ms="110" started-at="2022-04-13T03:13:44Z" finished-at="2022-04-13T03:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckFashion -->
+    </test> <!-- StagingFECheckFashiononChrome -->
+    <test name="StagingFECheckMAConChrome" duration-ms="4366" started-at="2022-04-13T03:13:45Z" finished-at="2022-04-13T03:13:49Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckMAC">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@6e1567f1]" name="setUp" is-config="true" duration-ms="1364" started-at="2022-04-13T03:13:45Z" finished-at="2022-04-13T03:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckMAC()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@6e1567f1]" name="testStagingFECheckMAC" duration-ms="2824" started-at="2022-04-13T03:13:46Z" finished-at="2022-04-13T03:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckMAC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@6e1567f1]" name="tearDown" is-config="true" duration-ms="175" started-at="2022-04-13T03:13:49Z" finished-at="2022-04-13T03:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckMAC -->
+    </test> <!-- StagingFECheckMAConChrome -->
+    <test name="StagingFECheckTLonChrome" duration-ms="10490" started-at="2022-04-13T03:13:49Z" finished-at="2022-04-13T03:14:00Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckTL">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@25bbe1b6]" name="setUp" is-config="true" duration-ms="1317" started-at="2022-04-13T03:13:49Z" finished-at="2022-04-13T03:13:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTL()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@25bbe1b6]" name="testStagingFECheckTL" duration-ms="9032" started-at="2022-04-13T03:13:50Z" finished-at="2022-04-13T03:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@25bbe1b6]" name="tearDown" is-config="true" duration-ms="139" started-at="2022-04-13T03:13:59Z" finished-at="2022-04-13T03:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckTL -->
+    </test> <!-- StagingFECheckTLonChrome -->
+    <test name="StagingFECheckTPonChrome" duration-ms="3773" started-at="2022-04-13T03:14:00Z" finished-at="2022-04-13T03:14:03Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckTP">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5649fd9b]" name="setUp" is-config="true" duration-ms="1268" started-at="2022-04-13T03:14:00Z" finished-at="2022-04-13T03:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTP()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5649fd9b]" name="testStagingFECheckTP" duration-ms="2386" started-at="2022-04-13T03:14:01Z" finished-at="2022-04-13T03:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTP -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5649fd9b]" name="tearDown" is-config="true" duration-ms="116" started-at="2022-04-13T03:14:03Z" finished-at="2022-04-13T03:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckTP -->
+    </test> <!-- StagingFECheckTPonChrome -->
+    <test name="StagingFECheckCBonFirefox" duration-ms="6405" started-at="2022-04-13T03:14:03Z" finished-at="2022-04-13T03:14:10Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCB">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@64bfbc86]" name="setUp" is-config="true" duration-ms="2841" started-at="2022-04-13T03:14:03Z" finished-at="2022-04-13T03:14:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCB()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@64bfbc86]" name="testStagingFECheckCB" duration-ms="2654" started-at="2022-04-13T03:14:06Z" finished-at="2022-04-13T03:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCB@64bfbc86]" name="tearDown" is-config="true" duration-ms="908" started-at="2022-04-13T03:14:09Z" finished-at="2022-04-13T03:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCB -->
+    </test> <!-- StagingFECheckCBonFirefox -->
+    <test name="StagingFECheckCHEonFirefox" duration-ms="6261" started-at="2022-04-13T03:14:10Z" finished-at="2022-04-13T03:14:16Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHE">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@7e0b0338]" name="setUp" is-config="true" duration-ms="2627" started-at="2022-04-13T03:14:10Z" finished-at="2022-04-13T03:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCHE()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@7e0b0338]" name="testStagingFECheckCHE" duration-ms="2651" started-at="2022-04-13T03:14:12Z" finished-at="2022-04-13T03:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCHE -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHE@7e0b0338]" name="tearDown" is-config="true" duration-ms="981" started-at="2022-04-13T03:14:15Z" finished-at="2022-04-13T03:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHE -->
+    </test> <!-- StagingFECheckCHEonFirefox -->
+    <test name="StagingFECheckCHFonFirefox" duration-ms="6961" started-at="2022-04-13T03:14:16Z" finished-at="2022-04-13T03:14:23Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckCHF">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@544fe44c]" name="setUp" is-config="true" duration-ms="2725" started-at="2022-04-13T03:14:16Z" finished-at="2022-04-13T03:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckCHF()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@544fe44c]" name="testStagingFECheckCHF" duration-ms="3080" started-at="2022-04-13T03:14:19Z" finished-at="2022-04-13T03:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckCHF -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckCHF@544fe44c]" name="tearDown" is-config="true" duration-ms="1154" started-at="2022-04-13T03:14:22Z" finished-at="2022-04-13T03:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckCHF -->
+    </test> <!-- StagingFECheckCHFonFirefox -->
+    <test name="StagingFECheckFashiononFirefox" duration-ms="10802" started-at="2022-04-13T03:14:23Z" finished-at="2022-04-13T03:14:34Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckFashion">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@66480dd7]" name="setUp" is-config="true" duration-ms="2641" started-at="2022-04-13T03:14:23Z" finished-at="2022-04-13T03:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTL()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@66480dd7]" name="testStagingFECheckTL" duration-ms="7303" started-at="2022-04-13T03:14:26Z" finished-at="2022-04-13T03:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckFashion@66480dd7]" name="tearDown" is-config="true" duration-ms="858" started-at="2022-04-13T03:14:33Z" finished-at="2022-04-13T03:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckFashion -->
+    </test> <!-- StagingFECheckFashiononFirefox -->
+    <test name="StagingFECheckMAConFirefox" duration-ms="6332" started-at="2022-04-13T03:14:34Z" finished-at="2022-04-13T03:14:40Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckMAC">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@2ac273d3]" name="setUp" is-config="true" duration-ms="2425" started-at="2022-04-13T03:14:34Z" finished-at="2022-04-13T03:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckMAC()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@2ac273d3]" name="testStagingFECheckMAC" duration-ms="2771" started-at="2022-04-13T03:14:36Z" finished-at="2022-04-13T03:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckMAC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckMAC@2ac273d3]" name="tearDown" is-config="true" duration-ms="1133" started-at="2022-04-13T03:14:39Z" finished-at="2022-04-13T03:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckMAC -->
+    </test> <!-- StagingFECheckMAConFirefox -->
+    <test name="StagingFECheckTLonFirefox" duration-ms="12438" started-at="2022-04-13T03:14:40Z" finished-at="2022-04-13T03:14:53Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckTL">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@2286778]" name="setUp" is-config="true" duration-ms="2412" started-at="2022-04-13T03:14:40Z" finished-at="2022-04-13T03:14:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTL()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@2286778]" name="testStagingFECheckTL" duration-ms="9156" started-at="2022-04-13T03:14:43Z" finished-at="2022-04-13T03:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTL@2286778]" name="tearDown" is-config="true" duration-ms="869" started-at="2022-04-13T03:14:52Z" finished-at="2022-04-13T03:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckTL -->
+    </test> <!-- StagingFECheckTLonFirefox -->
+    <test name="StagingFECheckTPonFirefox" duration-ms="6304" started-at="2022-04-13T03:14:53Z" finished-at="2022-04-13T03:14:59Z">
+      <class name="com.StagingFECheck.testCases.StagingFECheckTP">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5f9d02cb]" name="setUp" is-config="true" duration-ms="2418" started-at="2022-04-13T03:14:53Z" finished-at="2022-04-13T03:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testStagingFECheckTP()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5f9d02cb]" name="testStagingFECheckTP" duration-ms="3002" started-at="2022-04-13T03:14:55Z" finished-at="2022-04-13T03:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStagingFECheckTP -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.StagingFECheck.testCases.StagingFECheckTP@5f9d02cb]" name="tearDown" is-config="true" duration-ms="882" started-at="2022-04-13T03:14:58Z" finished-at="2022-04-13T03:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.StagingFECheck.testCases.StagingFECheckTP -->
+    </test> <!-- StagingFECheckTPonFirefox -->
+  </suite> <!-- StagingFECheck (0) -->
+</testng-results>

@@ -1,0 +1,9 @@
+com/StagingFECheck/testCases/StagingFECheckCHF.class
+com/StagingFECheck/utilities/ReadConfig.class
+com/StagingFECheck/testCases/BaseClass.class
+com/StagingFECheck/testCases/StagingFECheckMAC.class
+com/StagingFECheck/testCases/StagingFECheckTL.class
+com/StagingFECheck/testCases/StagingFECheckFashion.class
+com/StagingFECheck/testCases/StagingFECheckTP.class
+com/StagingFECheck/testCases/StagingFECheckCHE.class
+com/StagingFECheck/testCases/StagingFECheckCB.class
